@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "langgraph:dev": "pnpm dlx @langchain/langgraph-cli dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.3",
+    "@langchain/core": "^1.1.12",
+    "@langchain/langgraph": "^1.0.13",
+    "@langchain/openai": "latest",
+    "@tavily/core": "^0.6.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "langchain": "latest",
+    "mongoose": "^8.0.3",
+    "pdfkit": "^0.14.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

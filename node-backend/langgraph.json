@@ -1,0 +1,8 @@
+{
+    "node_version": "22",
+    "dockerfile_lines": [],
+    "graphs": {
+        "agent": "./src/graph/index.js:graph"
+    },
+    "env": ".env"
+}
