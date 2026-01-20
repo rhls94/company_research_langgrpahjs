@@ -1,0 +1,11 @@
+{
+    "name": "company-research-agent",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "./start_all.sh",
+        "backend": "npm run start --prefix node-backend",
+        "ui": "npm run dev --prefix ui",
+        "langgraph:dev": "npm run langgraph:dev --prefix node-backend"
+    }
+}
